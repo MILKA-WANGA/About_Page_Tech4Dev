@@ -1,0 +1,131 @@
+.team
+{
+    background-color: white);
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    text-align: center;
+    margin: 30px auto;
+}
+.team-members{
+    border: 2px solid ;
+    width: 20%;
+    height:5vh;
+    color: #ff0000;
+    background-color: #ffaa66;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 50%;
+    font-size: 18px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.text_2{
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-kerning: auto;
+    line-height: 50px;
+    
+
+}
+.card_1
+{
+    height:365px;
+    width: 180px;
+    padding: 20px 35px;
+    background-color:#f3fafd;
+    border-radius: 20px;
+    margin:15px ;
+    position: relative;
+    overflow: hidden;
+    padding-right: 10%;
+    object-fit:cover;
+}
+.card_2
+{
+    height:365px;
+    width: 180px;
+    padding: 20px 35px;
+    background-color:#979a95;
+    border-radius: 20px;
+    margin:15px ;
+    position: relative;
+    overflow: hidden;
+    padding-right: 10%;
+    object-fit:cover;
+    align-items: center;
+}
+
+.card_3
+{
+    height:365px;
+    width: 180px;
+    padding: 20px 35px;
+    background-color:#AB9C90;
+    border-radius: 20px;
+    margin:15px ;
+    position: relative;
+    overflow: hidden;
+    padding-right: 10%;
+    object-fit:cover;
+}
+.card_4
+{
+    height:365px;
+    width: 180px;
+    padding: 20px 35px;
+    background-color:#aebdc3;
+    border-radius: 20px;
+    margin:15px ;
+    position: relative;
+    overflow: hidden;
+    padding-right: 10%;
+    object-fit:cover;
+}
+.member{
+    color: #ff0000;
+    font-size: 15px;
+    font-style: normal;
+    padding: 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.social{
+    display: flex;
+}
+.social a{
+    display: flex;
+    width:45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color:white;
+    margin: 22px 10px;
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transition: .3s;
+    transform: scale(1.3);
+}
+/* .end{
+    position: absolute;
+    color: #f0004d;
+    bottom: 35px;
+    font-size: 14px;
+} */

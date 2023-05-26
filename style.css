@@ -14,7 +14,7 @@
 .team-members{
     border: 2px solid ;
     width: 20%;
-    height:4vh;
+    height:8vh;
     background-color: #ffaa66;   
     border-radius: 30px;
     margin-left: 40%;     
@@ -24,7 +24,6 @@
     padding-top:0%;
     color: #ff0000;
     text-align: center;
-    color: #ff0000;
     padding-left: 10px;
     font-size: 18px;  
     
@@ -164,6 +163,10 @@ img{
     transform: scale(1.1) translateY(-8%);
     transition: .5s;
 }
+.card_1:hover p{
+    transform: scale(1.1) translateY(-8%);
+    transition: .5s;
+}
 /* card-2 */
 
 .card_2:hover{
@@ -179,6 +182,10 @@ img{
     visibility: visible;
 }
 .card_2:hover img{
+    transform: scale(1.1) translateY(-8%);
+    transition: .5s;
+}
+.card_2:hover p{
     transform: scale(1.1) translateY(-8%);
     transition: .5s;
 }
@@ -200,6 +207,10 @@ img{
     transform: scale(1.1) translateY(-8%);
     transition: .5s;
 }
+.card_3:hover p{
+    transform: scale(1.1) translateY(-8%);
+    transition: .5s;
+}
 
 /* .card_4 */
 .card_4:hover{
@@ -216,6 +227,10 @@ img{
 }
 .card_4:hover img {
     transform: scale(1.2) translateY(-8%) ;
+    transition: .5s;
+}
+.card_4:hover p{
+    transform: scale(1.1) translateY(-8%);
     transition: .5s;
 }
 

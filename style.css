@@ -137,7 +137,7 @@ img{
     position: relative;
     bottom: 0px;      
     box-sizing: border-box;
-    /* visibility: hidden; */
+    visibility: hidden; 
     opacity: 0;
 }
 .card_1:hover{
@@ -149,11 +149,12 @@ img{
     background-color:#f3fafd ;
 }
 .card_1:hover .social a{
-    opacity: 4;
+    opacity: 1;
     visibility: visible;
 }
 .card_1:hover img{
-    transform: scale(1.1) ;
+    transform: scale(1.1) translateY(-8%);
+    transition: .5s;
 }
 /* card-2 */
 
@@ -166,11 +167,12 @@ img{
     background-color:#979a95 ;
 }
 .card_2:hover .social a{
-    opacity: 4;
+    opacity: 1;
     visibility: visible;
 }
 .card_2:hover img{
-    transform: scale(1.1) ;
+    transform: scale(1.1) translateY(-8%);
+    transition: .5s;
 }
 /* 
 .card_3 */
@@ -183,11 +185,12 @@ img{
     background-color:#AB9C90;
 }
 .card_3:hover .social a{
-    opacity: 4;
+    opacity: 1;
     visibility: visible;
 }
 .card_3:hover img{
-    transform: scale(1.1) ;
+    transform: scale(1.1) translateY(-8%);
+    transition: .5s;
 }
 
 /* .card_4 */
@@ -200,11 +203,12 @@ img{
     background-color:#aebdc3;
 }
 .card_4:hover .social a{
-    opacity: 4;
+    opacity: 1;
     visibility: visible;
 }
-.card_4:hover img{
-    transform: scale(1.1) ;
+.card_4:hover img {
+    transform: scale(1.1) translateY(-8%) ;
+    transition: .5s;
 }
 
 

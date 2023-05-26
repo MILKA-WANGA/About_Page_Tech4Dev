@@ -98,6 +98,14 @@
     padding-right: 10%;
     object-fit:cover;
 }
+img{
+    cursor: pointer;
+    object-fit:cover;
+    width: 100%;
+    height: 50%;
+    padding-left: 40%;
+    
+}
 .member{
     color: #ff0000;
     font-size: 15px;
@@ -108,7 +116,7 @@
     
 }
 .social{
-    display: flex;
+    display: flex
     
    
     
@@ -126,26 +134,85 @@
     color: #ff0000;
     text-decoration: none;
     font-size: 12px;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    
+    position: relative;
+    bottom: 0px;      
     box-sizing: border-box;
+    /* visibility: hidden; */
+    opacity: 0;
 }
-
-.social a:hover{
-    transition: .3s;
-    transform: scale(1.3);
-}
- img{
+.card_1:hover{
     cursor: pointer;
-    object-fit:cover;
-    width: 100%;
-    height: 50%;
-    padding-left: 40%;
+}
+.card_1:hover .member{
+    height: 0px;
+    bottom: 0px;
+    background-color:#f3fafd ;
+}
+.card_1:hover .social a{
+    opacity: 4;
     visibility: visible;
 }
+.card_1:hover img{
+    transform: scale(1.1) ;
+}
+/* card-2 */
+
+.card_2:hover{
+    cursor: pointer;
+}
+.card_2:hover .member{
+    height: 0px;
+    bottom: 0px;
+    background-color:#979a95 ;
+}
+.card_2:hover .social a{
+    opacity: 4;
+    visibility: visible;
+}
+.card_2:hover img{
+    transform: scale(1.1) ;
+}
+/* 
+.card_3 */
+.card_3:hover{
+    cursor: pointer;
+}
+.card_3:hover .member{
+    height: 0px;
+    bottom: 0px;
+    background-color:#AB9C90;
+}
+.card_3:hover .social a{
+    opacity: 4;
+    visibility: visible;
+}
+.card_3:hover img{
+    transform: scale(1.1) ;
+}
+
+/* .card_4 */
+.card_4:hover{
+    cursor: pointer;
+}
+.card_4:hover .member{
+    height: 0px;
+    bottom: 0px;
+    background-color:#aebdc3;
+}
+.card_4:hover .social a{
+    opacity: 4;
+    visibility: visible;
+}
+.card_4:hover img{
+    transform: scale(1.1) ;
+}
+
+
+/* .social a:hover{
+    transition: .3s;
+    transform: scale(1.3);
+} */
+ 
 
   
 
